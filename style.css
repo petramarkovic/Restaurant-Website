@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    opacity: 70%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Charmonman', cursive;
+    border-bottom: 1px solid #fff;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Charmonman', cursive;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    color: #0e918c;
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 2rem;
+}
+
+
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #0e918c;
+    font-size: 2rem;
+}
+
+table {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    margin: 10px auto;
+}
+
+td {
+    border: 2px solid #0e918c;
+    padding: 10px
+}
+
+input, textarea {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px 30px;
+    border: 2px solid #0e918c;
+    font-family: 'Raleway', sans-serif;
+    color: #0e918c;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+.image-gallery, .one {
+    background-color: #0e918c;
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #fff;
+}
+
+.two {
+    justify-content: flex-end;
+    border-top: 1px solid #fff;
+}
+
+.description-div {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.wrapper {
+    padding: 2%;
+}
+
+.submit {
+    color: #fff;
+    background-color: #0e918c;
+}
+
+.submit:hover {
+    padding: 15px 35px;
+}
+
+.reservation-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.location-info {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px auto;
+}
+
+.location-info h4 {
+    margin: 20px auto;
+    font-size: 2rem;
+}
+
+.location-info p {
+    font-size: 1.5rem;
+    padding: 10px auto;
+}
+
+.social-media img {
+    padding: 10px 30px;
+}
+
+.warning {
+    text-align: center;
+    background-color: #d4551a;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.complete {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(77, 185, 45);
+    font-family: 'Raleway', sans-serif;
+}
+
+#menu {
+    color: #0e918c;
+    background-color: #fff;
+}
+
+#location {
+    background-color: #0e918c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+@media  (max-width: 965px) {
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .reservation-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
